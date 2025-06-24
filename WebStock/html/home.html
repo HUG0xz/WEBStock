@@ -1,46 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webstock.com</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="Adobe Express - file.png" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WEBStock</title>
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="shortcut icon" href="Adobe Express - file.png" type="image/x-icon" />
 </head>
 <body>
-
-    <div class="navbar">
-        <h2 style="float: left; margin: 0; padding: 15px 20px;"><img allign=img src="Adobe Express - file.png" alt=" " class="imagm2"><span class="highlight1">   WEB</span><span class="highlight2">Stock</span></h2>
-        <a href="home.html">Início</a>
+  <header class="navbar">
+    <div class="logo">
+      <img src="Adobe Express - file.png" alt="Logo" />
+      <span class="highlight1">WEB</span><span class="highlight2">Stock</span>
+    </div>
+    <nav>
+    <a href="home.html">Início</a>
         <a href="categorias.html">Categorias</a>
-        <a href="faq.html">FAQ</a>
+        <a href="#faq">FAQ</a>
         <a href="contato.html">Contate-nos</a>
-        <a2></a2>
-        <a2></a2>
-        <a2></a2>
-        <a2></a2>
-        <a2></a2>
-        <a2></a2>
-        <a2></a2>
-        <a2></a2>
-        <a href="./notificacoes.html"><button type="button" class="tmudo"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
-  <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"/>
-</svg></button></a>
+    </nav>
+    <a href="./notificacoes.html" class="notif-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"/>
+      </svg>
+    </a>
+  </header>
+
+  <div class="content"><h1>Bem-vindo ao Webstock</h1>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>A melhor opção para <span class="orange">organizar</span> seu <span class="blue">inventário!</span></h1>
+      <a href="#" class="btn">Saiba mais</a>
     </div>
-
-    <div class="content">
-        <h1>Bem-vindo ao Webstock</h1>
-        <p>A melhor plataforma para armazenamento!</p>
-        <h2 id="sobre">Sobre</h2>
-        <p>Somos uma plataforma de armazenamento e organização, com um design dinâmico e intuitivo que ajuda o usuário a ter melhor controle sobre seus projetos,</p> 
-        <p>sejam eles corporativos ou pessoais.</p>
-        <h2 id="incentivo">Assine nossa plataforma gratuitamente e otimize seu tempo em 200%!</h2>
-        <p>Com apenas alguns cliques, torne-se usuário e inicie suas atividades com o pé direito!</p>
-
-        <a href="./html/cadastro.html">Cadastre-se</a>
-        <a href="./html/login.html">Entrar</a>
-
+    <div class="hero-img">
+      <img src="../img/web.jpg" alt="Organização de estoque" />
     </div>
+  </section>
 
+  <section class="benefits">
+    <img src="../img/web.jpg" alt="Pessoa usando computador" />
+    <ul>
+      <li>* Atualizações Constantes</li>
+      <li>* Uso de Sistemas Automatizados</li>
+      <li>* Maior Controle e Auditoria</li>
+      <li>* Melhor Eficiência no Armazenamento</li>
+      <li>* Evita perda de materiais por armazenamento inadequado</li>
+    </ul>
+  </section>
+
+  <section class="cadastro">
+    <div class="text">
+      <small>Como obter uma conta Stock?</small>
+      <h2>Ah, isso é fácil! Cadastre-se em nosso site. Depois é só aproveitar tudo de forma gratuita!</h2>
+    </div>
+    <img src="../img/web.jpg" alt="Cadastro" />
+  </section>
+
+  <section id="faq" class="faq">
+    <h2>FAQ</h2>
+    <details open>
+      <summary>Como é feita a organização?</summary>
+      <p>Organizamos um sistema para que os alunos possam solicitar a reposição ou o conserto de materiais escolares junto ao gestor do setor. Após isso, levantamos dados dos pedidos com prazos e sistemas de auditoria. Acesso rápido e fácil.</p>
+    </details>
+    <details>
+      <summary>Qual é a ética de trabalho da empresa?</summary>
+      <p>Valorizamos a transparência, inovação e o cuidado com os dados de nossos usuários.</p>
+    </details>
+    <details>
+      <summary>Como faço para atualizar o estoque?</summary>
+      <p>Basta acessar o painel administrativo e utilizar a função “Atualizar Estoque”.</p>
+    </details>
+  </section>
+  </div>
 </body>
 </html>
